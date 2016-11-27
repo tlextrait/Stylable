@@ -1,6 +1,6 @@
 # Stylable
 
-[![CI Status](http://img.shields.io/travis/Thomas Lextrait/Stylable.svg?style=flat)](https://travis-ci.org/Thomas Lextrait/Stylable)
+[![CI Status](http://img.shields.io/travis/tlextrait/Stylable.svg?style=flat)](https://travis-ci.org/tlextrait/Stylable)
 [![Version](https://img.shields.io/cocoapods/v/Stylable.svg?style=flat)](http://cocoapods.org/pods/Stylable)
 [![License](https://img.shields.io/cocoapods/l/Stylable.svg?style=flat)](http://cocoapods.org/pods/Stylable)
 [![Platform](https://img.shields.io/cocoapods/p/Stylable.svg?style=flat)](http://cocoapods.org/pods/Stylable)

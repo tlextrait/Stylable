@@ -7,12 +7,28 @@
 //
 
 import UIKit
+import Stylable
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var label2: UILabel!
+    
+    @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    
+    
+    let MyTextStyle = TextStyle(font: UIFont(name: "GeorgiaItalic", size: 13.0), color: UIColor.redColor())
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        label1.apply(MyTextStyle)
+        label2.apply(MyTextStyle)
+        
+        button1.apply(MyTextStyle)
+        button2.apply(MyTextStyle)
+        
     }
 
     override func didReceiveMemoryWarning() {

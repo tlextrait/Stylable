@@ -11,8 +11,10 @@
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		0B8DBAB184BB7E8E1D9C5E3386A8DEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		23E86EF9ECDB0209A46ED43F55BE9D99 /* Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000F79E0C848EBCA8038FDF20BF7B81 /* Stylable.swift */; };
+		22940AE5FF97F511F5506285AEF888D6 /* Stylable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B14DAE36B35CA521D52789BA90AD88 /* Stylable-dummy.m */; };
+		2DD096B6E49D79296161BC71AC0F9EBC /* Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BF0D0FBE6C3FB80F6274DAD1A1C8D3 /* Stylable.swift */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31D85344ED1C3EBE56A73DF2FF6E39E7 /* UITextView+Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDD3FB299B104985F6F5A4D35B16BBA /* UITextView+Stylable.swift */; };
 		3581EBB1CEEAAEF7B18F56771A904A27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		3B83A2F08BC090A6FD3EBA869E1BD39D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */; };
@@ -21,16 +23,18 @@
 		464CA2C437FFCD17B26752A54E03FC21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
 		640776F175B648FBC2E43C16ECF3F39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */; };
+		65E5D6F37BA5DAA6367C72D5A3E9F2C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		90EAA08686CC6E8D5463175FB5043C7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
+		8D8C74DA0C4B343B9DDF4323730BC463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		978E79F5C96D88305E164242EDCA792D /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20164CDC2FD47C2BFDDBB27CA1E5979 /* TextStyle.swift */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		AB692B70F761D29CF3A67544A9CFBAF8 /* Stylable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B14DAE36B35CA521D52789BA90AD88 /* Stylable-dummy.m */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C732192ACE5D49F8F5D200DBFEB65CDA /* UIButton+Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3B847FA2A591E1B3DC309571DB060A /* UIButton+Stylable.swift */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CBD662B7D3E771D6A0F0E8240B084530 /* Pods-Stylable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E64A7CD52A9D1FA3D5FCBA9B75986D /* Pods-Stylable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDD72ADA2CC07471BBBA50D474FB6266 /* Pods-Stylable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA651E92615B68ECBE396119A8D2D58 /* Pods-Stylable_Tests-dummy.m */; };
@@ -38,6 +42,7 @@
 		D32332CA40D4F631E8DBA950B25A18FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C32099E0A716483F90035D502A494AC /* XCTest.framework */; };
 		D9A05730A422C5C93C475B5186A0BF0A /* Pods-Stylable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D5E7997C7A49E56D811F8B7942CB70 /* Pods-Stylable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		E10CCEF5910DF8BADFC173E812F6F668 /* UILabel+Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718A9328ED518F11F30D9EEF3665B48 /* UILabel+Stylable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +63,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0000F79E0C848EBCA8038FDF20BF7B81 /* Stylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stylable.swift; sourceTree = "<group>"; };
 		0385EC0A70CF37DBE075CAECD6B2FC41 /* Pods-Stylable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stylable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		07D5E7997C7A49E56D811F8B7942CB70 /* Pods-Stylable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stylable_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -69,10 +73,13 @@
 		11137DEFE2C83D1C9D3580178C3035A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		1DA651E92615B68ECBE396119A8D2D58 /* Pods-Stylable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stylable_Tests-dummy.m"; sourceTree = "<group>"; };
+		1FDD3FB299B104985F6F5A4D35B16BBA /* UITextView+Stylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Stylable.swift"; sourceTree = "<group>"; };
 		25156394754C5AEF52799D94000138CE /* Pods-Stylable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stylable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		260DAFEC4B666750C6ECAB9070D735BE /* Pods-Stylable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stylable_Tests-resources.sh"; sourceTree = "<group>"; };
+		2718A9328ED518F11F30D9EEF3665B48 /* UILabel+Stylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Stylable.swift"; sourceTree = "<group>"; };
 		29957CB3F53F25FF1ADC771B8C1303E8 /* Pods-Stylable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stylable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		30BF0D0FBE6C3FB80F6274DAD1A1C8D3 /* Stylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stylable.swift; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		39E64A7CD52A9D1FA3D5FCBA9B75986D /* Pods-Stylable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stylable_Example-umbrella.h"; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
@@ -88,6 +95,7 @@
 		5CE1BCA1EDC0301398E1759C695ADE34 /* Stylable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Stylable.xcconfig; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		7B3B847FA2A591E1B3DC309571DB060A /* UIButton+Stylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Stylable.swift"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		80EB3FCDBD99EB70DB81AE7A88F50205 /* Pods-Stylable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stylable_Example-frameworks.sh"; sourceTree = "<group>"; };
 		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -107,6 +115,7 @@
 		C8244FD913D1847A4F5BBEEC1CB3142F /* Pods-Stylable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stylable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D031E1AC6DBC7D5100FA071BC21772A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20164CDC2FD47C2BFDDBB27CA1E5979 /* TextStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
@@ -129,6 +138,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4F300E661500949F7C99B183406ADCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8C74DA0C4B343B9DDF4323730BC463 /* Foundation.framework in Frameworks */,
+				65E5D6F37BA5DAA6367C72D5A3E9F2C7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F25802DA03A50DEC1F44CC10072A6FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,14 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				464CA2C437FFCD17B26752A54E03FC21 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D68B7E226B7F4C3F68167A6BEF33BAD2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90EAA08686CC6E8D5463175FB5043C7E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +231,19 @@
 			path = "Example/Pods/Target Support Files/Stylable";
 			sourceTree = "<group>";
 		};
+		70ABD2D18847B013A51352226E897509 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30BF0D0FBE6C3FB80F6274DAD1A1C8D3 /* Stylable.swift */,
+				D20164CDC2FD47C2BFDDBB27CA1E5979 /* TextStyle.swift */,
+				7B3B847FA2A591E1B3DC309571DB060A /* UIButton+Stylable.swift */,
+				2718A9328ED518F11F30D9EEF3665B48 /* UILabel+Stylable.swift */,
+				1FDD3FB299B104985F6F5A4D35B16BBA /* UITextView+Stylable.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +254,15 @@
 				9E1B171BF89A6C16E19DCFA00536CAAB /* Products */,
 				F420D7F80362E25CE0E81E376E563622 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7F6D4059119776FA53745E5F7DAFE9F4 /* Stylable */ = {
+			isa = PBXGroup;
+			children = (
+				70ABD2D18847B013A51352226E897509 /* Classes */,
+			);
+			name = Stylable;
+			path = Stylable;
 			sourceTree = "<group>";
 		};
 		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
@@ -252,15 +284,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2E11950DF5756A5C5A1CDD0E5147469 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0000F79E0C848EBCA8038FDF20BF7B81 /* Stylable.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		B8023F1F444E586346970E2CD57C1B58 /* Pods-Stylable_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,19 +302,10 @@
 			path = "Target Support Files/Pods-Stylable_Example";
 			sourceTree = "<group>";
 		};
-		C366D53645DB5D3B51BB1A0C08EF841F /* Stylable */ = {
-			isa = PBXGroup;
-			children = (
-				A2E11950DF5756A5C5A1CDD0E5147469 /* Classes */,
-			);
-			name = Stylable;
-			path = Stylable;
-			sourceTree = "<group>";
-		};
 		D26E780A0A6B2735BAC165BC6E2C92FE /* Stylable */ = {
 			isa = PBXGroup;
 			children = (
-				C366D53645DB5D3B51BB1A0C08EF841F /* Stylable */,
+				7F6D4059119776FA53745E5F7DAFE9F4 /* Stylable */,
 				589AE651B07F1E4F82CB3AFB452F46A0 /* Support Files */,
 			);
 			name = Stylable;
@@ -421,8 +435,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 969652DD507C006DD5A83B56C79E5F12 /* Build configuration list for PBXNativeTarget "Stylable" */;
 			buildPhases = (
-				88173E0C1AF70537516BF27D9D82FDC7 /* Sources */,
-				D68B7E226B7F4C3F68167A6BEF33BAD2 /* Frameworks */,
+				339D4A058A509FD1B46A715D0AE30ED6 /* Sources */,
+				4F300E661500949F7C99B183406ADCC6 /* Frameworks */,
 				E3EFB08A8108E21151857DED919A320B /* Headers */,
 			);
 			buildRules = (
@@ -508,12 +522,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88173E0C1AF70537516BF27D9D82FDC7 /* Sources */ = {
+		339D4A058A509FD1B46A715D0AE30ED6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB692B70F761D29CF3A67544A9CFBAF8 /* Stylable-dummy.m in Sources */,
-				23E86EF9ECDB0209A46ED43F55BE9D99 /* Stylable.swift in Sources */,
+				22940AE5FF97F511F5506285AEF888D6 /* Stylable-dummy.m in Sources */,
+				2DD096B6E49D79296161BC71AC0F9EBC /* Stylable.swift in Sources */,
+				978E79F5C96D88305E164242EDCA792D /* TextStyle.swift in Sources */,
+				C732192ACE5D49F8F5D200DBFEB65CDA /* UIButton+Stylable.swift in Sources */,
+				E10CCEF5910DF8BADFC173E812F6F668 /* UILabel+Stylable.swift in Sources */,
+				31D85344ED1C3EBE56A73DF2FF6E39E7 /* UITextView+Stylable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

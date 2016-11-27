@@ -2,12 +2,15 @@
 //  Stylable.swift
 //  Pods
 //
-//  Created by Thomas Lextrait (Personal) on 11/26/16.
+//  Created by Thomas Lextrait on 11/26/16.
 //
 //
 
 import UIKit
 
-class Stylable: NSObject {
-
+public protocol Stylable {
+    
+    associatedtype Style
+    mutating func apply(style: Style)
+    
 }
