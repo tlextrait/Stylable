@@ -13,8 +13,12 @@ private typealias UIButtonStylable = UIButton
 extension UIButtonStylable: Stylable {
 
     public func apply(style: TextStyle) {
-        titleLabel?.textColor = style.color
         titleLabel?.font = style.font
+        setTitleColor(style.color, forState: .Normal)
+    }
+    
+    public func style() -> TextStyle {
+        return TextStyle(font: titleLabel?.font, color: titleLabel?.textColor)
     }
     
 }

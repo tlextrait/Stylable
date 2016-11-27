@@ -18,16 +18,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var button2: UIButton!
     
     
-    let MyTextStyle = TextStyle(font: UIFont(name: "GeorgiaItalic", size: 13.0), color: UIColor.redColor())
+    let MyTextStyle = TextStyle(font: UIFont(name: "Georgia", size: 15.0), color: UIColor.redColor())
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         label1.apply(MyTextStyle)
-        label2.apply(MyTextStyle)
+        label2.apply(label1.style())
         
         button1.apply(MyTextStyle)
-        button2.apply(MyTextStyle)
+        button2.apply(button1.style())
         
     }
 

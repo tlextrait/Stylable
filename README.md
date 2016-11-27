@@ -9,7 +9,13 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+### Define Styles
+
+### Applying Styles
+
 ## Requirements
+
+Swift 2.2+
 
 ## Installation
 

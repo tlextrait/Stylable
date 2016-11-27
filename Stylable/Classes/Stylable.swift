@@ -12,5 +12,12 @@ public protocol Stylable {
     
     associatedtype Style
     mutating func apply(style: Style)
+    func style() -> Style
+    
+}
+
+public protocol Style {
+    
+
     
 }
